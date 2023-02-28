@@ -1,0 +1,70 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: verdana;
+}
+
+.quadrante{
+  background-color: rgba(0,0,0,0.40);
+  width: 1200px;
+  height: 750px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+
+}
+
+img{
+  width: 200px;
+  display: block;
+  margin: auto;
+  padding-top: 70px;
+}
+
+h1{
+  text-align: center;
+  color: lime;
+  margin: 5px;
+}
+
+.containerBT{
+  background-color: lime;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+main{
+  padding-left: 100px;
+  color: white;
+}
+
+.monopattino{
+  font-size: 20px;
+}
+
+div.carica1, div.carica2, div.carica3{
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+div.carica1, div.carica2{
+  background-color: lime;
+}
+
+.carica1{
+  width: 300px;
+}
+
+.carica2{
+  width: 500px;
+}
+
+.carica3{
+  width: 150px;
+  background-color: red;
+}
